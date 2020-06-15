@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;500;700;800;900&display=swap');
+
+::selection{
+  background-color: #ffbb00;
+  opacity: 0.3;
+}
+
 html, body {
   margin:0;
 }
@@ -31,4 +38,21 @@ html, body {
   background-size:cover;
   background-position: center;
   animation: landing-background 30s ease-in-out infinite;
+}
+
+.intro-writing{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width:60%;
+  font-family:'Bungee', cursive;
+  color:  #FFFFFF;
+  background-image: url(images/landing/desert.jpg);
+  background-size: cover;
+  background-position:center 85%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2em;
+  font-weight: bold;
 }
